@@ -9,3 +9,8 @@ autopublish
 insecure
 fourseven:scss
 aldeed:autoform
+iron:router
+accounts-base
+accounts-ui
+accounts-password
+twbs:bootstrap
