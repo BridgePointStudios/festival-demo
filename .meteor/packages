@@ -5,12 +5,10 @@
 # but you can also edit it by hand.
 
 meteor-platform
-autopublish
-insecure
 fourseven:scss
 aldeed:autoform
 iron:router
 accounts-base
-accounts-ui
 accounts-password
 twbs:bootstrap
+accounts-ui

@@ -1,6 +1,6 @@
 <template name="header">
-  <nav class="navbar navbar-default" role="navigation">
-    <div class="container-fluid">
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
           <span class="sr-only">Toggle navigation</span>
@@ -11,7 +11,7 @@
         <a class="navbar-brand" href="{{pathFor 'landing'}}">Festival Demo</a>
       </div>
       <div class="collapse navbar-collapse" id="navigation">
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav navbar-right">
 
                 <li><a href="{{pathFor 'bandsList'}}">Bands</a></li>
 

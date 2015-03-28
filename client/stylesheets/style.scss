@@ -1,4 +1,9 @@
 
+// Variables
+$blue : #262262;
+$orange: #FEC77C;
+$offWhite: #feffef;
+
 
 .grid-block, .main, .band, .comments li, .comment-form {
   background: #fff;
@@ -11,10 +16,14 @@
 
 body {
   background: #eee;
-  color: #666666; }
+  color: #666666;
+
+    position: relative;
+    }
 
 #main {
   position: relative;
+  padding-top: 100px;
 }
 .page {
   position: absolute;
@@ -22,11 +31,60 @@ body {
   width: 100%;
 }
 
+/** header navigation **/
+
+#featured {
+
+}
 .navbar {
-  margin-bottom: 10px; }
-  /* line 32, ../sass/style.scss */
-  .navbar .navbar-inner {
-    border-radius: 0px 0px 3px 3px; }
+	padding: 20px 0;
+
+}
+
+.navbar {
+	border: none;
+	color: $blue;
+}
+
+.navbar-default {
+	background-color: $orange;
+}
+
+.navbar-default .navbar-brand{
+	font-family: 'Old Standard TT', serif;
+	font-size: 36px;
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: bold;
+	color: $blue;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: $blue;
+	font-weight: 400;
+}
+
+.navbar-default .navbar-nav > li.active > a{
+	border-bottom: 2px solid $blue;
+	background-color: $orange;
+}
+
+.navbar-default .navbar-nav>.active>a,
+ .navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+	background-color: $orange;
+	border-bottom: 1px solid $blue;
+}
+
+
+header .navbar-toggle {
+	background-color: $blue;
+}
+header .navbar-default .navbar-toggle .icon-bar{
+	background-color: white;
+}
+
+
 
 #spinner {
   height: 300px; }
